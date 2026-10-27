@@ -1,0 +1,6 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+autoaim/build/
+autoaim/install/
+autoaim/log/
