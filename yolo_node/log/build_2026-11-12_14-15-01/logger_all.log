@@ -1,0 +1,62 @@
+[1.742s] colcon DEBUG Command line arguments: ['D:\\ROS2\\ros2-windows\\.pixi\\envs\\default\\Scripts\\colcon', 'build', '--base-paths', 'E:\\JUN\\auto_aim_jun\\yolo_node', '--packages-select', 'yolo_node', '--build-base', 'C:\\Users\\hp\\.codex\\visualizations\\2026\\11\\11\\01a1ca78-3206-70b0-b655-c64e6be9eaf3\\yolo_build', '--install-base', 'C:\\Users\\hp\\.codex\\visualizations\\2026\\11\\11\\01a1ca78-3206-70b0-b655-c64e6be9eaf3\\yolo_install', '--event-handlers', 'console_direct+', '--cmake-args', '-DOpenCV_DIR=D:/opencv/opencv/build']
+[1.742s] colcon DEBUG Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='C:\\Users\\hp\\.codex\\visualizations\\2026\\11\\11\\01a1ca78-3206-70b0-b655-c64e6be9eaf3\\yolo_build', install_base='C:\\Users\\hp\\.codex\\visualizations\\2026\\11\\11\\01a1ca78-3206-70b0-b655-c64e6be9eaf3\\yolo_install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=['console_direct+'], ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['E:\\JUN\\auto_aim_jun\\yolo_node'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['yolo_node'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=['-DOpenCV_DIR=D:/opencv/opencv/build'], cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x0000017F4AAA8BF0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x0000017F4AA45D00>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x0000017F4AA45D00>>, mixin_verb=('build',))
+[3.267s] colcon.colcon_core.package_discovery Level 1 discover_packages(colcon_meta) check parameters
+[3.268s] colcon.colcon_core.package_discovery Level 1 discover_packages(recursive) check parameters
+[3.268s] colcon.colcon_core.package_discovery Level 1 discover_packages(ignore) check parameters
+[3.268s] colcon.colcon_core.package_discovery Level 1 discover_packages(path) check parameters
+[3.268s] colcon.colcon_core.package_discovery Level 1 discover_packages(recursive) discover
+[3.268s] colcon.colcon_core.package_discovery INFO Crawling recursively for packages in 'E:\JUN\auto_aim_jun\yolo_node'
+[3.274s] colcon.colcon_core.package_identification Level 1 _identify(E:\JUN\auto_aim_jun\yolo_node) by extensions ['ignore', 'ignore_ament_install']
+[3.275s] colcon.colcon_core.package_identification Level 1 _identify(E:\JUN\auto_aim_jun\yolo_node) by extension 'ignore'
+[3.276s] colcon.colcon_core.package_identification Level 1 _identify(E:\JUN\auto_aim_jun\yolo_node) by extension 'ignore_ament_install'
+[3.277s] colcon.colcon_core.package_identification Level 1 _identify(E:\JUN\auto_aim_jun\yolo_node) by extensions ['colcon_pkg']
+[3.277s] colcon.colcon_core.package_identification Level 1 _identify(E:\JUN\auto_aim_jun\yolo_node) by extension 'colcon_pkg'
+[3.277s] colcon.colcon_core.package_identification Level 1 _identify(E:\JUN\auto_aim_jun\yolo_node) by extensions ['colcon_meta']
+[3.277s] colcon.colcon_core.package_identification Level 1 _identify(E:\JUN\auto_aim_jun\yolo_node) by extension 'colcon_meta'
+[3.278s] colcon.colcon_core.package_identification Level 1 _identify(E:\JUN\auto_aim_jun\yolo_node) by extensions ['ros']
+[3.278s] colcon.colcon_core.package_identification Level 1 _identify(E:\JUN\auto_aim_jun\yolo_node) by extension 'ros'
+[3.740s] colcon.colcon_core.package_identification DEBUG Package 'E:\JUN\auto_aim_jun\yolo_node' with type 'ros.ament_cmake' and name 'yolo_node'
+[3.741s] colcon.colcon_core.package_discovery Level 1 discover_packages(recursive) using defaults
+[4.412s] colcon.colcon_core.verb Level 5 set package 'yolo_node' build argument 'cmake_args' from command line to '['-DOpenCV_DIR=D:/opencv/opencv/build']'
+[4.412s] colcon.colcon_core.verb Level 5 set package 'yolo_node' build argument 'cmake_target' from command line to 'None'
+[4.412s] colcon.colcon_core.verb Level 5 set package 'yolo_node' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.412s] colcon.colcon_core.verb Level 5 set package 'yolo_node' build argument 'cmake_clean_cache' from command line to 'False'
+[4.412s] colcon.colcon_core.verb Level 5 set package 'yolo_node' build argument 'cmake_clean_first' from command line to 'False'
+[4.412s] colcon.colcon_core.verb Level 5 set package 'yolo_node' build argument 'cmake_force_configure' from command line to 'False'
+[4.412s] colcon.colcon_core.verb Level 5 set package 'yolo_node' build argument 'ament_cmake_args' from command line to 'None'
+[4.412s] colcon.colcon_core.verb Level 5 set package 'yolo_node' build argument 'catkin_cmake_args' from command line to 'None'
+[4.412s] colcon.colcon_core.verb Level 5 set package 'yolo_node' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.412s] colcon.colcon_core.verb DEBUG Building package 'yolo_node' with the following arguments: {'ament_cmake_args': None, 'build_base': 'C:\\Users\\hp\\.codex\\visualizations\\2026\\11\\11\\01a1ca78-3206-70b0-b655-c64e6be9eaf3\\yolo_build\\yolo_node', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DOpenCV_DIR=D:/opencv/opencv/build'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': 'C:\\Users\\hp\\.codex\\visualizations\\2026\\11\\11\\01a1ca78-3206-70b0-b655-c64e6be9eaf3\\yolo_install\\yolo_node', 'merge_install': False, 'path': 'E:\\JUN\\auto_aim_jun\\yolo_node', 'symlink_install': False, 'test_result_base': None}
+[4.413s] colcon.colcon_core.executor INFO Executing jobs using 'parallel' executor
+[4.477s] colcon.colcon_parallel_executor.executor.parallel DEBUG run_until_complete
+[4.480s] colcon.colcon_ros.task.ament_cmake.build INFO Building ROS package in 'E:\JUN\auto_aim_jun\yolo_node' with build type 'ament_cmake'
+[4.481s] colcon.colcon_cmake.task.cmake.build INFO Building CMake package in 'E:\JUN\auto_aim_jun\yolo_node'
+[4.542s] colcon.colcon_core.plugin_system INFO Skipping extension 'colcon_core.shell.sh': Not used on Windows systems
+[4.545s] colcon.colcon_ros_domain_id_coordinator.shell.ros_domain_id DEBUG Allocated ROS_DOMAIN_ID=53 for 'C:\Users\hp\.codex\visualizations\2026\11\11\01a1ca78-3206-70b0-b655-c64e6be9eaf3\yolo_build\yolo_node'
+[4.549s] colcon.colcon_core.shell INFO Skip shell extension 'ros_domain_id' for command environment: 
+[7.368s] colcon.colcon_core.event_handler.log_command DEBUG Invoking command in 'C:\Users\hp\.codex\visualizations\2026\11\11\01a1ca78-3206-70b0-b655-c64e6be9eaf3\yolo_build\yolo_node': PIXI_PROMPT=(pixi_ros2_lyrical) PIXI_WORKSPACE_NAME=%PIXI_WORKSPACE_NAME%
+PYCHARM COMMUNITY EDITION=E:\app\PyCharm Community Edition 2022.1.3\bin; D:\ROS2\ros2-windows\.pixi\envs\default\Library/bin\cmake.EXE E:\JUN\auto_aim_jun\yolo_node -DOpenCV_DIR=D:/opencv/opencv/build -DCMAKE_INSTALL_PREFIX=C:\Users\hp\.codex\visualizations\2026\11\11\01a1ca78-3206-70b0-b655-c64e6be9eaf3\yolo_install\yolo_node -G Visual Studio 18 2026
+[8.409s] colcon.colcon_core.event_handler.log_command DEBUG Invoked command in 'C:\Users\hp\.codex\visualizations\2026\11\11\01a1ca78-3206-70b0-b655-c64e6be9eaf3\yolo_build\yolo_node' returned '1': PIXI_PROMPT=(pixi_ros2_lyrical) PIXI_WORKSPACE_NAME=%PIXI_WORKSPACE_NAME%
+PYCHARM COMMUNITY EDITION=E:\app\PyCharm Community Edition 2022.1.3\bin; D:\ROS2\ros2-windows\.pixi\envs\default\Library/bin\cmake.EXE E:\JUN\auto_aim_jun\yolo_node -DOpenCV_DIR=D:/opencv/opencv/build -DCMAKE_INSTALL_PREFIX=C:\Users\hp\.codex\visualizations\2026\11\11\01a1ca78-3206-70b0-b655-c64e6be9eaf3\yolo_install\yolo_node -G Visual Studio 18 2026
+[8.409s] colcon.colcon_core.environment Level 1 create_environment_scripts_only(yolo_node)
+[8.461s] colcon.colcon_core.environment Level 1 checking 'C:\Users\hp\.codex\visualizations\2026\11\11\01a1ca78-3206-70b0-b655-c64e6be9eaf3\yolo_install\yolo_node' for CMake module files
+[8.465s] colcon.colcon_core.environment Level 1 checking 'C:\Users\hp\.codex\visualizations\2026\11\11\01a1ca78-3206-70b0-b655-c64e6be9eaf3\yolo_install\yolo_node' for CMake config files
+[8.466s] colcon.colcon_core.environment Level 1 checking 'C:\Users\hp\.codex\visualizations\2026\11\11\01a1ca78-3206-70b0-b655-c64e6be9eaf3\yolo_install\yolo_node\bin'
+[8.466s] colcon.colcon_core.environment Level 1 checking 'C:\Users\hp\.codex\visualizations\2026\11\11\01a1ca78-3206-70b0-b655-c64e6be9eaf3\yolo_install\yolo_node\bin'
+[8.467s] colcon.colcon_core.environment Level 1 checking 'C:\Users\hp\.codex\visualizations\2026\11\11\01a1ca78-3206-70b0-b655-c64e6be9eaf3\yolo_install\yolo_node\lib\pkgconfig\yolo_node.pc'
+[8.468s] colcon.colcon_core.environment Level 1 checking 'C:\Users\hp\.codex\visualizations\2026\11\11\01a1ca78-3206-70b0-b655-c64e6be9eaf3\yolo_install\yolo_node\Lib\site-packages'
+[8.469s] colcon.colcon_core.environment Level 1 checking 'C:\Users\hp\.codex\visualizations\2026\11\11\01a1ca78-3206-70b0-b655-c64e6be9eaf3\yolo_install\yolo_node\Scripts'
+[8.469s] colcon.colcon_core.shell INFO Creating package script 'C:\Users\hp\.codex\visualizations\2026\11\11\01a1ca78-3206-70b0-b655-c64e6be9eaf3\yolo_install\yolo_node\share\yolo_node\package.ps1'
+[8.503s] colcon.colcon_core.shell INFO Creating package script 'C:\Users\hp\.codex\visualizations\2026\11\11\01a1ca78-3206-70b0-b655-c64e6be9eaf3\yolo_install\yolo_node\share\yolo_node\package.bat'
+[8.527s] colcon.colcon_core.shell INFO Creating package descriptor 'C:\Users\hp\.codex\visualizations\2026\11\11\01a1ca78-3206-70b0-b655-c64e6be9eaf3\yolo_install\yolo_node\share\yolo_node\package.dsv'
+[8.548s] colcon.colcon_core.environment Level 1 create_file_with_runtime_dependencies(C:\Users\hp\.codex\visualizations\2026\11\11\01a1ca78-3206-70b0-b655-c64e6be9eaf3\yolo_install\yolo_node\share\colcon-core\packages\yolo_node)
+[8.551s] colcon.colcon_ros_domain_id_coordinator.shell.ros_domain_id DEBUG Released ROS_DOMAIN_ID=53 for 'C:\Users\hp\.codex\visualizations\2026\11\11\01a1ca78-3206-70b0-b655-c64e6be9eaf3\yolo_build\yolo_node'
+[8.551s] colcon.colcon_parallel_executor.executor.parallel DEBUG run_until_complete finished with '1'
+[8.552s] colcon.colcon_core.event_reactor DEBUG joining thread
+[8.556s] colcon.colcon_core.event_reactor DEBUG joined thread
+[8.557s] colcon.colcon_core.shell INFO Creating prefix script 'C:\Users\hp\.codex\visualizations\2026\11\11\01a1ca78-3206-70b0-b655-c64e6be9eaf3\yolo_install\local_setup.ps1'
+[8.585s] colcon.colcon_core.shell INFO Creating prefix util module 'C:\Users\hp\.codex\visualizations\2026\11\11\01a1ca78-3206-70b0-b655-c64e6be9eaf3\yolo_install\_local_setup_util_ps1.py'
+[8.609s] colcon.colcon_core.shell INFO Creating prefix chain script 'C:\Users\hp\.codex\visualizations\2026\11\11\01a1ca78-3206-70b0-b655-c64e6be9eaf3\yolo_install\setup.ps1'
+[8.647s] colcon.colcon_core.shell INFO Creating prefix script 'C:\Users\hp\.codex\visualizations\2026\11\11\01a1ca78-3206-70b0-b655-c64e6be9eaf3\yolo_install\local_setup.bat'
+[8.695s] colcon.colcon_core.shell INFO Creating prefix util module 'C:\Users\hp\.codex\visualizations\2026\11\11\01a1ca78-3206-70b0-b655-c64e6be9eaf3\yolo_install\_local_setup_util_bat.py'
+[8.699s] colcon.colcon_core.shell INFO Creating prefix chain script 'C:\Users\hp\.codex\visualizations\2026\11\11\01a1ca78-3206-70b0-b655-c64e6be9eaf3\yolo_install\setup.bat'

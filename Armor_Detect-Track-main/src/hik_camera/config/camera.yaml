@@ -1,0 +1,39 @@
+/**:
+  ros__parameters:
+    # Leave serial_number empty to select device_index.
+    serial_number: ""
+    device_index: 0
+
+    frame_id: camera_optical_frame
+    image_topic: /image_raw
+    camera_info_topic: /camera_info
+
+    # Bayer 8-bit minimizes USB/GigE bandwidth. Change this if MVS reports a
+    # different Bayer pattern for your color sensor. An empty string preserves
+    # the format currently stored in the camera.
+    pixel_format: BayerRG8
+    width: 0                    # 0 keeps the camera's current width
+    height: 0                   # 0 keeps the camera's current height
+    offset_x: 0
+    offset_y: 0
+
+    exposure_time: 2000.0      # microseconds; runtime adjustable
+    gain: 8.0                  # dB; runtime adjustable
+    frame_rate: 0.0            # <= 0 disables throttling and requests maximum FPS
+    buffer_count: 2            # short queue favors low latency
+    bayer_quality: 0           # 0=fast, 1=balanced, 2=optimal, 3=optimal+
+    grab_timeout_ms: 100
+
+    # Replace these values with the calibration for the configured ROI/resolution.
+    camera_info:
+      distortion_model: plumb_bob
+      d: [-0.066478, 0.174267, -0.004292, 0.007409, 0.000000]
+      k: [1836.77459,    0.0    ,  772.2394,
+            0.0     , 1829.26984,  546.16249,
+            0.0     ,    0.0     ,    1.0     ]
+      r: [1.0, 0.0, 0.0,
+          0.0, 1.0, 0.0,
+          0.0, 0.0, 1.0]
+      p: [1828.3858,   0.0     ,  779.35895,    0.0     ,
+            0.0    , 1827.78765,  543.08826,    0.0     ,
+            0.0    ,   0.0     ,    1.0    ,    0.0     ]

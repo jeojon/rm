@@ -1,0 +1,79 @@
+[2.890s] Invoking command in 'C:\Users\hp\.codex\visualizations\2026\11\11\01a1ca78-3206-70b0-b655-c64e6be9eaf3\yolo_build\yolo_node': PIXI_PROMPT=(pixi_ros2_lyrical) PIXI_WORKSPACE_NAME=%PIXI_WORKSPACE_NAME%
+PYCHARM COMMUNITY EDITION=E:\app\PyCharm Community Edition 2022.1.3\bin; D:\ROS2\ros2-windows\.pixi\envs\default\Library/bin\cmake.EXE E:\JUN\auto_aim_jun\yolo_node -DOpenCV_DIR=D:/opencv/opencv/build -DCMAKE_INSTALL_PREFIX=C:\Users\hp\.codex\visualizations\2026\11\11\01a1ca78-3206-70b0-b655-c64e6be9eaf3\yolo_install\yolo_node -G Visual Studio 18 2026
+[3.781s] CMake Error: Could not create named generator Visual Studio 18 2026
+[3.859s] 
+[3.859s] Generators
+[3.859s]   Visual Studio 17 2022        = Generates Visual Studio 2022 project files.
+[3.859s]                                  Use -A option to specify architecture.
+[3.875s]   Visual Studio 16 2019        = Generates Visual Studio 2019 project files.
+[3.875s]                                  Use -A option to specify architecture.
+[3.875s]   Visual Studio 15 2017 [arch] = Generates Visual Studio 2017 project files.
+[3.875s]                                  Optional [arch] can be "Win64" or "ARM".
+[3.875s]   Visual Studio 14 2015 [arch] = Generates Visual Studio 2015 project files.
+[3.875s]                                  Optional [arch] can be "Win64" or "ARM".
+[3.875s]   Visual Studio 12 2013 [arch] = Deprecated.  Generates Visual Studio 2013
+[3.875s]                                  project files.  Optional [arch] can be
+[3.875s]                                  "Win64" or "ARM".
+[3.875s]   Visual Studio 9 2008 [arch]  = Deprecated.  Generates Visual Studio 2008
+[3.875s]                                  project files.  Optional [arch] can be
+[3.875s]                                  "Win64" or "IA64".
+[3.875s]   Borland Makefiles            = Generates Borland makefiles.
+[3.875s] * NMake Makefiles              = Generates NMake makefiles.
+[3.875s]   NMake Makefiles JOM          = Generates JOM makefiles.
+[3.875s]   MSYS Makefiles               = Generates MSYS makefiles.
+[3.875s]   MinGW Makefiles              = Generates a make file for use with
+[3.875s]                                  mingw32-make.
+[3.875s]   Green Hills MULTI            = Generates Green Hills MULTI files
+[3.875s]                                  (experimental, work-in-progress).
+[3.875s]   Unix Makefiles               = Generates standard UNIX makefiles.
+[3.875s]   Ninja                        = Generates build.ninja files.
+[3.875s]   Ninja Multi-Config           = Generates build-<Config>.ninja files.
+[3.875s]   Watcom WMake                 = Generates Watcom WMake makefiles.
+[3.875s]   CodeBlocks - MinGW Makefiles = Generates CodeBlocks project files
+[3.875s]                                  (deprecated).
+[3.875s]   CodeBlocks - NMake Makefiles = Generates CodeBlocks project files
+[3.875s]                                  (deprecated).
+[3.890s]   CodeBlocks - NMake Makefiles JOM
+[3.890s]                                = Generates CodeBlocks project files
+[3.890s]                                  (deprecated).
+[3.890s]   CodeBlocks - Ninja           = Generates CodeBlocks project files
+[3.890s]                                  (deprecated).
+[3.890s]   CodeBlocks - Unix Makefiles  = Generates CodeBlocks project files
+[3.890s]                                  (deprecated).
+[3.890s]   CodeLite - MinGW Makefiles   = Generates CodeLite project files
+[3.890s]                                  (deprecated).
+[3.890s]   CodeLite - NMake Makefiles   = Generates CodeLite project files
+[3.890s]                                  (deprecated).
+[3.890s]   CodeLite - Ninja             = Generates CodeLite project files
+[3.890s]                                  (deprecated).
+[3.890s]   CodeLite - Unix Makefiles    = Generates CodeLite project files
+[3.890s]                                  (deprecated).
+[3.890s]   Eclipse CDT4 - NMake Makefiles
+[3.890s]                                = Generates Eclipse CDT 4.0 project files
+[3.890s]                                  (deprecated).
+[3.890s]   Eclipse CDT4 - MinGW Makefiles
+[3.890s]                                = Generates Eclipse CDT 4.0 project files
+[3.890s]                                  (deprecated).
+[3.890s]   Eclipse CDT4 - Ninja         = Generates Eclipse CDT 4.0 project files
+[3.890s]                                  (deprecated).
+[3.890s]   Eclipse CDT4 - Unix Makefiles= Generates Eclipse CDT 4.0 project files
+[3.890s]                                  (deprecated).
+[3.890s]   Kate - MinGW Makefiles       = Generates Kate project files (deprecated).
+[3.890s]   Kate - NMake Makefiles       = Generates Kate project files (deprecated).
+[3.890s]   Kate - Ninja                 = Generates Kate project files (deprecated).
+[3.890s]   Kate - Ninja Multi-Config    = Generates Kate project files (deprecated).
+[3.890s]   Kate - Unix Makefiles        = Generates Kate project files (deprecated).
+[3.890s]   Sublime Text 2 - MinGW Makefiles
+[3.890s]                                = Generates Sublime Text 2 project files
+[3.890s]                                  (deprecated).
+[3.890s]   Sublime Text 2 - NMake Makefiles
+[3.890s]                                = Generates Sublime Text 2 project files
+[3.890s]                                  (deprecated).
+[3.890s]   Sublime Text 2 - Ninja       = Generates Sublime Text 2 project files
+[3.890s]                                  (deprecated).
+[3.890s]   Sublime Text 2 - Unix Makefiles
+[3.890s]                                = Generates Sublime Text 2 project files
+[3.890s]                                  (deprecated).
+[3.890s] 
+[3.922s] Invoked command in 'C:\Users\hp\.codex\visualizations\2026\11\11\01a1ca78-3206-70b0-b655-c64e6be9eaf3\yolo_build\yolo_node' returned '1': PIXI_PROMPT=(pixi_ros2_lyrical) PIXI_WORKSPACE_NAME=%PIXI_WORKSPACE_NAME%
+PYCHARM COMMUNITY EDITION=E:\app\PyCharm Community Edition 2022.1.3\bin; D:\ROS2\ros2-windows\.pixi\envs\default\Library/bin\cmake.EXE E:\JUN\auto_aim_jun\yolo_node -DOpenCV_DIR=D:/opencv/opencv/build -DCMAKE_INSTALL_PREFIX=C:\Users\hp\.codex\visualizations\2026\11\11\01a1ca78-3206-70b0-b655-c64e6be9eaf3\yolo_install\yolo_node -G Visual Studio 18 2026

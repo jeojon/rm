@@ -1,0 +1,64 @@
+[1.563s] Invoking command in 'C:\Users\hp\.codex\visualizations\2026\11\11\01a1ca78-3206-70b0-b655-c64e6be9eaf3\yolo_build3\yolo_node': PIXI_PROMPT=(pixi_ros2_lyrical) PIXI_WORKSPACE_NAME=%PIXI_WORKSPACE_NAME%
+PYCHARM COMMUNITY EDITION=E:\app\PyCharm Community Edition 2022.1.3\bin; D:\ROS2\ros2-windows\.pixi\envs\default\Library/bin\cmake.EXE E:\JUN\auto_aim_jun\yolo_node -G Ninja -DCMAKE_MAKE_PROGRAM=E:/VS/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe -DCMAKE_C_COMPILER=cl -DCMAKE_CXX_COMPILER=cl -DCMAKE_BUILD_TYPE=Release -DOpenCV_DIR=D:/opencv/opencv/build -DCMAKE_INSTALL_PREFIX=C:\Users\hp\.codex\visualizations\2026\11\11\01a1ca78-3206-70b0-b655-c64e6be9eaf3\yolo_install3\yolo_node
+[2.875s] -- The C compiler identification is MSVC 19.44.35229.0
+[3.657s] -- The CXX compiler identification is MSVC 19.44.35229.0
+[3.782s] -- Detecting C compiler ABI info
+[5.485s] -- Detecting C compiler ABI info - done
+[5.532s] -- Check for working C compiler: E:/VS/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/cl.exe - skipped
+[5.532s] -- Detecting C compile features
+[5.547s] -- Detecting C compile features - done
+[5.594s] -- Detecting CXX compiler ABI info
+[7.110s] -- Detecting CXX compiler ABI info - done
+[7.172s] -- Check for working CXX compiler: E:/VS/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/cl.exe - skipped
+[7.172s] -- Detecting CXX compile features
+[7.172s] -- Detecting CXX compile features - done
+[7.219s] -- Found ament_cmake: 2.8.8 (D:/ROS2/ros2-windows/share/ament_cmake/cmake)
+[10.079s] -- Found ament_index_cpp: 1.13.3 (D:/ROS2/ros2-windows/share/ament_index_cpp/cmake)
+[10.110s] -- Found rclcpp: 32.0.2 (D:/ROS2/ros2-windows/share/rclcpp/cmake)
+[10.594s] -- Found rosidl_generator_c: 5.2.1 (D:/ROS2/ros2-windows/share/rosidl_generator_c/cmake)
+[10.719s] -- Found rosidl_generator_cpp: 5.2.1 (D:/ROS2/ros2-windows/share/rosidl_generator_cpp/cmake)
+[10.938s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[11.141s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[11.813s] -- Found rmw_implementation_cmake: 7.10.1 (D:/ROS2/ros2-windows/share/rmw_implementation_cmake/cmake)
+[11.860s] -- Found rmw_fastrtps_cpp: 9.4.9 (D:/ROS2/ros2-windows/share/rmw_fastrtps_cpp/cmake)
+[12.250s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[12.985s] -- Found sensor_msgs: 5.9.3 (D:/ROS2/ros2-windows/share/sensor_msgs/cmake)
+[13.547s] -- OpenCV ARCH: x64
+[13.547s] -- OpenCV RUNTIME: vc16
+[13.547s] -- OpenCV STATIC: OFF
+[13.579s] -- Found OpenCV: D:/opencv/opencv/build (found version "5.0.0") found components: core imgproc dnn 
+[13.579s] -- Found OpenCV 5.0.0 in D:/opencv/opencv/build/x64/vc16/lib
+[13.579s] -- You might need to add D:\opencv\opencv\build\x64\vc16\bin to your PATH to be able to run your applications.
+[14.813s] -- Configuring done (13.2s)
+[16.922s] -- Generating done (1.8s)
+[17.266s] -- Build files have been written to: C:/Users/hp/.codex/visualizations/2026/11/11/01a1ca78-3206-70b0-b655-c64e6be9eaf3/yolo_build3/yolo_node
+[17.297s] Invoked command in 'C:\Users\hp\.codex\visualizations\2026\11\11\01a1ca78-3206-70b0-b655-c64e6be9eaf3\yolo_build3\yolo_node' returned '0': PIXI_PROMPT=(pixi_ros2_lyrical) PIXI_WORKSPACE_NAME=%PIXI_WORKSPACE_NAME%
+PYCHARM COMMUNITY EDITION=E:\app\PyCharm Community Edition 2022.1.3\bin; D:\ROS2\ros2-windows\.pixi\envs\default\Library/bin\cmake.EXE E:\JUN\auto_aim_jun\yolo_node -G Ninja -DCMAKE_MAKE_PROGRAM=E:/VS/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe -DCMAKE_C_COMPILER=cl -DCMAKE_CXX_COMPILER=cl -DCMAKE_BUILD_TYPE=Release -DOpenCV_DIR=D:/opencv/opencv/build -DCMAKE_INSTALL_PREFIX=C:\Users\hp\.codex\visualizations\2026\11\11\01a1ca78-3206-70b0-b655-c64e6be9eaf3\yolo_install3\yolo_node
+[17.297s] Invoking command in 'C:\Users\hp\.codex\visualizations\2026\11\11\01a1ca78-3206-70b0-b655-c64e6be9eaf3\yolo_build3\yolo_node': PIXI_PROMPT=(pixi_ros2_lyrical) PIXI_WORKSPACE_NAME=%PIXI_WORKSPACE_NAME%
+PYCHARM COMMUNITY EDITION=E:\app\PyCharm Community Edition 2022.1.3\bin; D:\ROS2\ros2-windows\.pixi\envs\default\Library/bin\cmake.EXE --build C:\Users\hp\.codex\visualizations\2026\11\11\01a1ca78-3206-70b0-b655-c64e6be9eaf3\yolo_build3\yolo_node -- -j8 -l8
+[885.141s] [1/2] Building CXX object CMakeFiles\yolo_roi_node.dir\src\yolo_roi_node.cpp.obj
+[886.454s] [2/2] Linking CXX executable yolo_roi_node.exe
+[886.469s] Invoked command in 'C:\Users\hp\.codex\visualizations\2026\11\11\01a1ca78-3206-70b0-b655-c64e6be9eaf3\yolo_build3\yolo_node' returned '0': PIXI_PROMPT=(pixi_ros2_lyrical) PIXI_WORKSPACE_NAME=%PIXI_WORKSPACE_NAME%
+PYCHARM COMMUNITY EDITION=E:\app\PyCharm Community Edition 2022.1.3\bin; D:\ROS2\ros2-windows\.pixi\envs\default\Library/bin\cmake.EXE --build C:\Users\hp\.codex\visualizations\2026\11\11\01a1ca78-3206-70b0-b655-c64e6be9eaf3\yolo_build3\yolo_node -- -j8 -l8
+[886.641s] Invoking command in 'C:\Users\hp\.codex\visualizations\2026\11\11\01a1ca78-3206-70b0-b655-c64e6be9eaf3\yolo_build3\yolo_node': PIXI_PROMPT=(pixi_ros2_lyrical) PIXI_WORKSPACE_NAME=%PIXI_WORKSPACE_NAME%
+PYCHARM COMMUNITY EDITION=E:\app\PyCharm Community Edition 2022.1.3\bin; D:\ROS2\ros2-windows\.pixi\envs\default\Library/bin\cmake.EXE --install C:\Users\hp\.codex\visualizations\2026\11\11\01a1ca78-3206-70b0-b655-c64e6be9eaf3\yolo_build3\yolo_node
+[886.719s] -- Install configuration: "Release"
+[886.766s] -- Installing: C:/Users/hp/.codex/visualizations/2026/11/11/01a1ca78-3206-70b0-b655-c64e6be9eaf3/yolo_install3/yolo_node/lib/yolo_node/yolo_roi_node.exe
+[886.782s] -- Installing: C:/Users/hp/.codex/visualizations/2026/11/11/01a1ca78-3206-70b0-b655-c64e6be9eaf3/yolo_install3/yolo_node/share/yolo_node/model
+[886.813s] -- Installing: C:/Users/hp/.codex/visualizations/2026/11/11/01a1ca78-3206-70b0-b655-c64e6be9eaf3/yolo_install3/yolo_node/share/yolo_node/model/yolov8n.onnx
+[886.938s] -- Installing: C:/Users/hp/.codex/visualizations/2026/11/11/01a1ca78-3206-70b0-b655-c64e6be9eaf3/yolo_install3/yolo_node/share/yolo_node/model/yolov8n.pt
+[886.985s] -- Installing: C:/Users/hp/.codex/visualizations/2026/11/11/01a1ca78-3206-70b0-b655-c64e6be9eaf3/yolo_install3/yolo_node/share/ament_index/resource_index/package_run_dependencies/yolo_node
+[887.000s] -- Installing: C:/Users/hp/.codex/visualizations/2026/11/11/01a1ca78-3206-70b0-b655-c64e6be9eaf3/yolo_install3/yolo_node/share/ament_index/resource_index/parent_prefix_path/yolo_node
+[887.000s] -- Installing: C:/Users/hp/.codex/visualizations/2026/11/11/01a1ca78-3206-70b0-b655-c64e6be9eaf3/yolo_install3/yolo_node/share/yolo_node/environment/ament_prefix_path.bat
+[887.000s] -- Installing: C:/Users/hp/.codex/visualizations/2026/11/11/01a1ca78-3206-70b0-b655-c64e6be9eaf3/yolo_install3/yolo_node/share/yolo_node/environment/ament_prefix_path.dsv
+[887.000s] -- Installing: C:/Users/hp/.codex/visualizations/2026/11/11/01a1ca78-3206-70b0-b655-c64e6be9eaf3/yolo_install3/yolo_node/share/yolo_node/environment/path.bat
+[887.016s] -- Installing: C:/Users/hp/.codex/visualizations/2026/11/11/01a1ca78-3206-70b0-b655-c64e6be9eaf3/yolo_install3/yolo_node/share/yolo_node/environment/path.dsv
+[887.016s] -- Installing: C:/Users/hp/.codex/visualizations/2026/11/11/01a1ca78-3206-70b0-b655-c64e6be9eaf3/yolo_install3/yolo_node/share/yolo_node/local_setup.bat
+[887.032s] -- Installing: C:/Users/hp/.codex/visualizations/2026/11/11/01a1ca78-3206-70b0-b655-c64e6be9eaf3/yolo_install3/yolo_node/share/yolo_node/local_setup.dsv
+[887.079s] -- Installing: C:/Users/hp/.codex/visualizations/2026/11/11/01a1ca78-3206-70b0-b655-c64e6be9eaf3/yolo_install3/yolo_node/share/yolo_node/package.dsv
+[887.094s] -- Installing: C:/Users/hp/.codex/visualizations/2026/11/11/01a1ca78-3206-70b0-b655-c64e6be9eaf3/yolo_install3/yolo_node/share/ament_index/resource_index/packages/yolo_node
+[887.094s] -- Installing: C:/Users/hp/.codex/visualizations/2026/11/11/01a1ca78-3206-70b0-b655-c64e6be9eaf3/yolo_install3/yolo_node/share/yolo_node/cmake/yolo_nodeConfig.cmake
+[887.094s] -- Installing: C:/Users/hp/.codex/visualizations/2026/11/11/01a1ca78-3206-70b0-b655-c64e6be9eaf3/yolo_install3/yolo_node/share/yolo_node/cmake/yolo_nodeConfig-version.cmake
+[887.094s] -- Installing: C:/Users/hp/.codex/visualizations/2026/11/11/01a1ca78-3206-70b0-b655-c64e6be9eaf3/yolo_install3/yolo_node/share/yolo_node/package.xml
+[887.110s] Invoked command in 'C:\Users\hp\.codex\visualizations\2026\11\11\01a1ca78-3206-70b0-b655-c64e6be9eaf3\yolo_build3\yolo_node' returned '0': PIXI_PROMPT=(pixi_ros2_lyrical) PIXI_WORKSPACE_NAME=%PIXI_WORKSPACE_NAME%
+PYCHARM COMMUNITY EDITION=E:\app\PyCharm Community Edition 2022.1.3\bin; D:\ROS2\ros2-windows\.pixi\envs\default\Library/bin\cmake.EXE --install C:\Users\hp\.codex\visualizations\2026\11\11\01a1ca78-3206-70b0-b655-c64e6be9eaf3\yolo_build3\yolo_node

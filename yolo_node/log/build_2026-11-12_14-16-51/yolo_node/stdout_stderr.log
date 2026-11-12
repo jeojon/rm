@@ -1,0 +1,52 @@
+-- The C compiler identification is MSVC 19.44.35229.0
+-- The CXX compiler identification is MSVC 19.44.35229.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: E:/VS/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/cl.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: E:/VS/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/cl.exe - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.8.8 (D:/ROS2/ros2-windows/share/ament_cmake/cmake)
+-- Found ament_index_cpp: 1.13.3 (D:/ROS2/ros2-windows/share/ament_index_cpp/cmake)
+-- Found rclcpp: 32.0.2 (D:/ROS2/ros2-windows/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 5.2.1 (D:/ROS2/ros2-windows/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 5.2.1 (D:/ROS2/ros2-windows/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.10.1 (D:/ROS2/ros2-windows/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 9.4.9 (D:/ROS2/ros2-windows/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found sensor_msgs: 5.9.3 (D:/ROS2/ros2-windows/share/sensor_msgs/cmake)
+-- OpenCV ARCH: x64
+-- OpenCV RUNTIME: vc16
+-- OpenCV STATIC: OFF
+-- Found OpenCV: D:/opencv/opencv/build (found version "5.0.0") found components: core imgproc dnn 
+-- Found OpenCV 5.0.0 in D:/opencv/opencv/build/x64/vc16/lib
+-- You might need to add D:\opencv\opencv\build\x64\vc16\bin to your PATH to be able to run your applications.
+-- Configuring done (13.2s)
+-- Generating done (1.8s)
+-- Build files have been written to: C:/Users/hp/.codex/visualizations/2026/11/11/01a1ca78-3206-70b0-b655-c64e6be9eaf3/yolo_build3/yolo_node
+[1/2] Building CXX object CMakeFiles\yolo_roi_node.dir\src\yolo_roi_node.cpp.obj
+[2/2] Linking CXX executable yolo_roi_node.exe
+-- Install configuration: "Release"
+-- Installing: C:/Users/hp/.codex/visualizations/2026/11/11/01a1ca78-3206-70b0-b655-c64e6be9eaf3/yolo_install3/yolo_node/lib/yolo_node/yolo_roi_node.exe
+-- Installing: C:/Users/hp/.codex/visualizations/2026/11/11/01a1ca78-3206-70b0-b655-c64e6be9eaf3/yolo_install3/yolo_node/share/yolo_node/model
+-- Installing: C:/Users/hp/.codex/visualizations/2026/11/11/01a1ca78-3206-70b0-b655-c64e6be9eaf3/yolo_install3/yolo_node/share/yolo_node/model/yolov8n.onnx
+-- Installing: C:/Users/hp/.codex/visualizations/2026/11/11/01a1ca78-3206-70b0-b655-c64e6be9eaf3/yolo_install3/yolo_node/share/yolo_node/model/yolov8n.pt
+-- Installing: C:/Users/hp/.codex/visualizations/2026/11/11/01a1ca78-3206-70b0-b655-c64e6be9eaf3/yolo_install3/yolo_node/share/ament_index/resource_index/package_run_dependencies/yolo_node
+-- Installing: C:/Users/hp/.codex/visualizations/2026/11/11/01a1ca78-3206-70b0-b655-c64e6be9eaf3/yolo_install3/yolo_node/share/ament_index/resource_index/parent_prefix_path/yolo_node
+-- Installing: C:/Users/hp/.codex/visualizations/2026/11/11/01a1ca78-3206-70b0-b655-c64e6be9eaf3/yolo_install3/yolo_node/share/yolo_node/environment/ament_prefix_path.bat
+-- Installing: C:/Users/hp/.codex/visualizations/2026/11/11/01a1ca78-3206-70b0-b655-c64e6be9eaf3/yolo_install3/yolo_node/share/yolo_node/environment/ament_prefix_path.dsv
+-- Installing: C:/Users/hp/.codex/visualizations/2026/11/11/01a1ca78-3206-70b0-b655-c64e6be9eaf3/yolo_install3/yolo_node/share/yolo_node/environment/path.bat
+-- Installing: C:/Users/hp/.codex/visualizations/2026/11/11/01a1ca78-3206-70b0-b655-c64e6be9eaf3/yolo_install3/yolo_node/share/yolo_node/environment/path.dsv
+-- Installing: C:/Users/hp/.codex/visualizations/2026/11/11/01a1ca78-3206-70b0-b655-c64e6be9eaf3/yolo_install3/yolo_node/share/yolo_node/local_setup.bat
+-- Installing: C:/Users/hp/.codex/visualizations/2026/11/11/01a1ca78-3206-70b0-b655-c64e6be9eaf3/yolo_install3/yolo_node/share/yolo_node/local_setup.dsv
+-- Installing: C:/Users/hp/.codex/visualizations/2026/11/11/01a1ca78-3206-70b0-b655-c64e6be9eaf3/yolo_install3/yolo_node/share/yolo_node/package.dsv
+-- Installing: C:/Users/hp/.codex/visualizations/2026/11/11/01a1ca78-3206-70b0-b655-c64e6be9eaf3/yolo_install3/yolo_node/share/ament_index/resource_index/packages/yolo_node
+-- Installing: C:/Users/hp/.codex/visualizations/2026/11/11/01a1ca78-3206-70b0-b655-c64e6be9eaf3/yolo_install3/yolo_node/share/yolo_node/cmake/yolo_nodeConfig.cmake
+-- Installing: C:/Users/hp/.codex/visualizations/2026/11/11/01a1ca78-3206-70b0-b655-c64e6be9eaf3/yolo_install3/yolo_node/share/yolo_node/cmake/yolo_nodeConfig-version.cmake
+-- Installing: C:/Users/hp/.codex/visualizations/2026/11/11/01a1ca78-3206-70b0-b655-c64e6be9eaf3/yolo_install3/yolo_node/share/yolo_node/package.xml
